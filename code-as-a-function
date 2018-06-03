@@ -1,0 +1,7 @@
+def printIntegers():
+    listOfIntegers = [x + 1 for x in range(10)]
+    for x in range(10):
+        if listOfIntegers[x] % 2 == 0:
+            print (listOfIntegers[x], "is even.")
+            
+printIntegers()
